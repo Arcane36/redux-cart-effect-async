@@ -1,7 +1,10 @@
 import ProductItem from "./ProductItem";
 import classes from "./Products.module.css";
 
-const DUMMY_DATA = [{ id: "1", price: 10, title: "Harry Potter", description: "This is a first product - amazing!" }];
+const DUMMY_DATA = [
+    { id: "1", price: 10, title: "Harry Potter", description: "This is a first product - amazing!" },
+    { id: "2", price: 15, title: "Harry Potter 2", description: "This is a second product - amazing!" },
+];
 
 const Products = (props) => {
     return (
